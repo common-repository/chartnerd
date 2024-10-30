@@ -1,0 +1,178 @@
+.ssd_wp_site_loader {border: 16px solid #f3f3f3;border-radius: 50%;border-top: 16px solid #3498db;width: 120px;height: 120px;-webkit-animation: spin 2s linear infinite; /* Safari */ animation: spin 2s linear infinite;  }
+.ssd_wp_site_loader_wrapper{bottom: 0;left: 0;position: fixed;background: rgba(160, 160, 160, 0.51);right: 0;top: 0;display: flex;align-items: center;justify-content: center;z-index: 9999; }
+.ssd_stripe_form {padding: 160px 0 40px;}
+.ssd_stripe_wrapper {margin: 0 auto;width: 40%;}
+.ssd_stripe_form_fields label {float: left !important;}
+.ssd_stripe_form input[type="submit"], .ssd_stripe_syncr_button button {padding: 12px 39px;width: 100%;}
+.ssd_notification_stripe_syncr_section {padding-top: 30px;}
+.ssd_notification_stripe_syncr_section textarea {width: 100%;}
+.ssd_wp_myprogress_wrapper{top: 69%;position: fixed;left:15%;}
+.ssd_wp_myprogress {width: 71%;background-color: #ddd;position: fixed;bottom: auto;}
+.sd_wp_mybar {width: 1%;height: 30px;background-color: #4CAF50;}
+/*.ssd_stripe_wrapper {width: 40%;float: left;}*/
+.ssd_stripe_form input[type="submit"] {background: #1b2356;color: #fff;}
+.ssd_stripe_form input[type="submit"]:hover {
+    background: #4d92bd;
+}
+.ssd_stripe_syncr_button input {background: #4d92bd;border: none;color: #fff;padding: 10px;}
+.ssd_chartnerd_listing_wrapper {width: 50%;float: right;padding: 160px 0 40px;}
+.cnsd_watermark{ display: block; color: #78818f;font-size: 15px; }
+.forminp.CNSD_color_wrapper img {position: relative; right: 25px;top: 2px;max-width: 14px; }
+.ssd_stripe_form_fields input {
+    width: 100%;
+    margin-top: 10px;
+}
+.form-image img {
+    border-radius: 50%;
+    box-shadow: 0px 1px 8px 3px #aaaa;
+/*    max-width: 80%;*/
+}
+/*.ssd-stripe-form-content {
+    display: inline-block;
+}*/
+/*.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+/*.form-image {
+       margin: 0 auto;
+    max-width: 30%;
+}
+*/
+.wrap.form-main-div:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.form-heading {
+    padding-top: 40px;
+    color: #4d92bd;
+    text-align: center;
+}
+.wrap:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*change in sdd_stripe css*/
+
+
+.ssd_stripe_form {
+    padding: 0 0 25px !important;
+    /* text-align: right; */
+}
+.ssd_stripe_syncr_button div {
+    float: left;
+    margin: 0 10% 15px 0px;
+}
+.ssd_stripe_syncr_button div {
+    float: left;
+    margin: 0 10% 15px 0px;
+}
+.wrap.form-main-div {
+    float: left;
+    width: 100%;
+    margin: 80px 0 0;
+    position: relative;
+}
+.form-image {
+    margin: 0 auto;
+    max-width: 13% !important;
+    top: -73px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.synchronise_chardnerd_data_right {
+    float: right !important;
+    margin-right: 0 !important;
+}
+.ssd_stripe_form_fields {
+    margin-top: 0px;
+    width: 48%;
+    float: left;
+    margin: 15px 0 0 0;
+
+}
+
+.ssd_stripe_wrapper {
+    margin: 0 auto;
+    width: 66% !important;
+    background: #f4f4f4;
+    padding: 70px 40px 35px;
+    clear: both;
+}
+.ssd_stripe_form_fields.password-field {
+    width: 100%;
+}
+.ssd_stripe_form input[type="submit"] {
+    margin: 30px 0 5px;
+}
+.ssd_stripe_form_fields:nth-child(2n+2) {
+    float: right;
+}
+.cnsd_dashboard_inner {
+    padding: 40px;
+}
+@media only screen and (max-width: 991px) {
+    .form-image{
+        max-width: 15% !important;
+        top: -65px;
+    }
+    .ssd_stripe_form_fields label {
+        font-size: 14px;
+    }
+    .form-heading {
+    font-size: 24px;
+}
+.ssd_stripe_wrapper{
+    width: 60% !important;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.ssd_stripe_form_fields{
+    width: 100% !important;
+}
+.ssd_stripe_wrapper{
+    padding-top:25px;
+}
+.ssd_stripe_syncr_button div{
+    width: 100%;
+
+}
+.ssd_stripe_syncr_button input{
+    width: 100%;
+}
+
+.ssd_stripe_wrapper {
+    width: 70% !important;
+}
+.ssd_stripe_form input[type="submit"]{
+    margin-bottom: 0;
+}
+.form-image{
+    max-width: 15% !important;
+    top: -45px !important;
+}
+.synchronise_chardnerd_data_right {
+    margin: 10px 0 30px 0 !important;
+}
+}
+@media only screen and (max-width: 450px) {
+    .form-image {
+    max-width: 25% !important;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
